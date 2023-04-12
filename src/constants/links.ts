@@ -1,0 +1,7 @@
+export  const insta = "https://www.instagram.com/SalesAppindiaofficial/"
+export  const facebook = "https://www.facebook.com/SalesAppInd"
+export  const twitter = "https://twitter.com/SalesAppIndia"
+export  const youtube = "https://www.youtube.com/user/TheSalesAppRubber"
+export const linkedin = "https://www.linkedin.com/company/SalesApp-india/?originalSubdomain=in"
+export const privacyPolicyLink ="https://www.y-SalesApp.com/global/privacy/"
+export const myk ="https://myklaticrete.com"
