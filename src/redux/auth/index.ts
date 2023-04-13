@@ -54,11 +54,14 @@ export const loginManager = (apiCall: any, data: any) => {
           // dispatch(setUserData(res.AccountDetail));
           // dispatch(setToken({access_token: res.sessionId}));
         } else {
+           dispatch(setUserData(res.AccountDetail));
+
           // return SimpleToast.show(strings.invalidCredentials);
         }
       }
     } catch (error) {
-      console.log(error);
+      dispatch(setUserData(data));
+      console.log("hhh",error);
     }
   };
 };

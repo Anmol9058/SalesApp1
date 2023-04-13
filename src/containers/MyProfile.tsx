@@ -117,11 +117,11 @@ const MyProfile = ({navigation}: any) => {
             </View>
 
             <View style={styles.infoContanier}>
-              <Text style={styles.title}>Ridham Kumar</Text>
-              <Text style={styles.subtitle}>123456</Text>
+              <Text style={styles.title}>Anmol Sharma</Text>
+              <Text style={styles.subtitle}>+91 9999999999</Text>
             </View>
           </View>
-
+{/* 
           <Tab.Navigator
             initialRouteName="MONTHLY"
             tabBar={props => <CustomTabBar {...props} />}>
@@ -135,12 +135,12 @@ const MyProfile = ({navigation}: any) => {
               component={CompanyInformation}
               options={{tabBarLabel: 'QUARTERLY'}}
             />
-            {/* <Tab.Screen
+             <Tab.Screen
               name="Ship To"
               component={ShipTo}
               options={{tabBarLabel: 'QUARTERLY'}}
-            /> */}
-          </Tab.Navigator>
+            /> 
+          </Tab.Navigator> */}
         </View>
       </SafeAreaView>
     </>

@@ -1,8 +1,8 @@
 export const dark_theme = {
   background: '#121212',
   textcolor: '#ffffff',
-  primary: '#46ACFF',    
-  primary_light: "#46ACFF",
+  primary: '#01a79b',    
+  primary_light: "#01a79b",
   accent: "#343434",
   light_accent: "#606060",
   inputbackground: '#344955',

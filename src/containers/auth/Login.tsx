@@ -50,7 +50,9 @@ const Login = ({ navigation }: any) => {
   const onLoginPress = () => {
     console.log('username',username)
     console.log('username',password)
-
+    
+    // setUserData({username:'AnmolSharma'})
+    // navigation.navigate('MainHome');
     dispatch<any>(
       loginManager(apiCall, {
        credential: username,

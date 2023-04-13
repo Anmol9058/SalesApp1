@@ -59,6 +59,8 @@ const MainStack = (props: any) => {
           <Stack.Screen name="HomeStack" component={HomeStack} />
         ) : (
           <Stack.Screen name="AuthStack" component={AuthStack} />
+          // <Stack.Screen name="HomeStack" component={HomeStack} />
+
         )}
       </Stack.Navigator>
     </>

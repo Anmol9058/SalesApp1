@@ -75,6 +75,19 @@ const BottomBar = () => {
       ),
     },
     {
+      route: 'MyProfile1',
+      component: MyProfile,
+      name: 'Visits',
+      icon: (
+        <FastImage
+          tintColor={theme.primary_light}
+          resizeMode="contain"
+          style={styles.icon}
+          source={require('../assets/images/bottombar/orders.png')}
+        />
+      ),
+    },
+    {
       route: 'SalesAppHome',
       component: MainHome,
       name: 'Dashboard',
@@ -151,7 +164,7 @@ const createStyles = (theme: any) =>
     },
     tabbar: {
       height: Platform.OS === 'ios' ? getScreenHeight(8) : getScreenHeight(8),
-      backgroundColor: theme.black,
+      backgroundColor: 'lightgrey',
     },
     icon: {
       width: getScreenHeight(3),

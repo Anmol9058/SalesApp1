@@ -5,6 +5,7 @@ import ForgotPassword from '../containers/auth/ForgotPassword';
 import CustomerStack from './CustomerStack';
 import ClaimStack from './ClaimStack';
 import Login from '../containers/auth/Login';
+import MainHome from '../containers/MainHome';
 
 const Stack = createNativeStackNavigator();
 
@@ -15,6 +16,7 @@ const AuthStack = () => {
         initialRouteName="Login"
         screenOptions={{headerShown: false}}>
         <Stack.Screen name="Login" component={Login} />
+        {/* <Stack.Screen name="MainHome" component={MainHome} /> */}
         {/* <Stack.Screen name="ForgotPassword" component={ForgotPassword} /> */}
         {/* <Stack.Screen name="CustomerStack" component={CustomerStack} /> */}
         {/* <Stack.Screen name="ClaimStack" component={ClaimStack} /> */}
